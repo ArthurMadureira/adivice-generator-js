@@ -9,6 +9,8 @@ function getAdvice() {
   .catch(error => console.log(error))
 }
 
+getAdvice()
+
 const diceBtn = document.getElementById('diceBtn')
 
 diceBtn.addEventListener('click', getAdvice)
